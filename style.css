@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background: url('bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    /* max-width: 100%;
+    height: auto; */
+}
+.container{
+    height:100%;
+    width:100%;
+    background-color: black;
+   
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+/* nav logo */
+.navbar img{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+/* navigation bar */
+.nav-list{
+    margin-top: 25px;
+    margin-left: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    margin-left: 60px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    
+}
+
+/* button */
+.small-btn{
+    margin-left: 430px;
+    margin-top: 25px;
+    background-color: rgb(177, 117, 233);
+    padding-top: 250px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding: 8px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+/* hero section */
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.heading{
+    font-size: 60px;
+    font-weight: 700;
+    color: aliceblue;
+}
+.paragraph{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 200;
+    color: aliceblue;
+}
+.large-button{
+    margin-top: 20px;
+    background-color: rgb(177, 117, 233);
+    padding-top: 250px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding: 8px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
